@@ -53,7 +53,6 @@ Hex2ch proc HexValue:DWORD,CharValue:DWORD,HexLength:DWORD
 Hex2ch endp
 
 GenKey proc hWin:DWORD
-LOCAL hBuff:DWORD
 	
 	invoke GetDlgItemText,hWin,IDC_CODE,addr Codebuff,256
 	.if eax == 0
