@@ -26,8 +26,6 @@ part6		db	60h	dup(?)
 part7		db	60h	dup(?)
 part8		db	60h	dup(?)
 hLen		dd	?
-buffer		dd	?
-Codelen		dd	?
 
 .code
 Hex2ch proc HexValue:DWORD,CharValue:DWORD,HexLength:DWORD
